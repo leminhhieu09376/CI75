@@ -1,0 +1,22 @@
+.renderUser {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.divC {
+    margin-bottom: 16px;
+}
+
+.div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
