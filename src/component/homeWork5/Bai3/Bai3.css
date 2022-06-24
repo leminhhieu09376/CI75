@@ -1,0 +1,17 @@
+.square3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.circle3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.bai3 {
+    display: flex;
+    margin-left: 30%;
+}

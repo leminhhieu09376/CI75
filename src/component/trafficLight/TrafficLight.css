@@ -1,0 +1,19 @@
+.div {
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
