@@ -1,23 +1,23 @@
 import React, { useState } from 'react'
+import "./DemoState.css"
 
 const DemoState = () => {
-    const [number, setNumber] = useState(0)
-    const handleDecrease = () => {
-        setNumber(number - 1)
+    const denGiaoThong = ["red", "yellow", "green"]
+    const [color, setColor] = useState(0)
+    const changeColor = () => {
+        setColor(color == 2 ? 0 : color + 1)
     }
-    const handleIncrease = () => {
-        setNumber((pre) => pre + 1
-        )
-        // setNumber(number + 1)
-    }
-    console.log("re-render")
     return (
         <div>
+            {
+                denGiaoThong.map((value, index) => {
+                    return (
+                        <div key={index} className={`mau ${index == color ? value : null}`} ></div>
+                    )
 
-            <button onClick={handleDecrease}>Decrease</button>
-            <span>{number}</span>
-            <button onClick={handleIncrease}>Increase</button>
-
+                })
+            }
+            <button onClick={changeColor}>Click me</button>
         </div>
     )
 }

@@ -1,0 +1,36 @@
+.ex2 {
+
+    position: relative;
+    background-color: red;
+    width: 100%;
+    top: -30px;
+    height: 97vh;
+
+
+
+
+}
+
+.title {
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.addInput {
+    margin-right: 8px;
+    padding: 8px;
+
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.addBtn {
+    margin-bottom: 32px;
+    margin-right: 5%;
+    padding: 8px 16px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+}
