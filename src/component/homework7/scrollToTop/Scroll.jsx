@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
+
 import "./Scroll.css"
 const Scroll = () => {
+
     const [visible, setVisible] = useState(false)
     const [position, setPosition] = useState(0)
     const [positionArr, setPositionArr] = useState([])
@@ -41,6 +43,7 @@ const Scroll = () => {
     })
     return (
         <div className='ex1Ue'>
+
             <h1>Lorem Ipsum</h1>
             <p className='p'>React has been designed
                 from the start for gradual adoption, and

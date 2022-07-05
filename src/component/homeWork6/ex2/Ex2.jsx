@@ -14,7 +14,7 @@ const Ex2 = () => {
 
     }
     const getList = (e) => {
-        e.preventDefault()
+        e.preventDefault() // tranh reload lai trang cua form khi nhan submit
         setList([...list, input])
         setInput("")
 
