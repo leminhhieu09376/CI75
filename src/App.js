@@ -5,20 +5,21 @@ import {
 } from "react-router-dom";
 import './App.css';
 
-import Home from "./component/homePage/Home";
-import Docs from "./component/homePage/Docs";
-import About from "./component/homePage/About";
+
+import Login from "./component/homeWork9/Login";
+import Home from "./component/homeWork9/Home";
 function App() {
   return (
     <BrowserRouter>
 
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="docs" element={<Docs />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/homwpage" element={<Home />} />
+
       </Routes>
     </BrowserRouter >
+
   );
 }
 
